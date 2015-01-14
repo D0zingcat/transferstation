@@ -1,0 +1,442 @@
+~ @Will >
+
+This is a cheatbook for Problem Horse Travel.
+
+The position format is (row_a, column_a) -> (row_b, column_b) -> ...
+To keep the content legible and clear, it will start a new line every 8 positions.(PROMPT BY 'ENTER')
+The first position is the location of next step you should take.
+
+Please enter the location of start(e.g. row2, column3 means 9): 
+
+Here is the solution for location 1: 
+->(2, 3)  (1, 5) (3, 6) (5, 5) (6, 3) (5, 1)  ENTER <_| 
+->(3, 2) (1, 3) (2, 1) (4, 2) (6, 1) (5, 3)  ENTER        
+...(6, 5) (4, 4) (5, 6) (6, 4) (5, 2) (3, 1)  ENTER
+(1, 2) (2, 4) (1, 6) (3, 5) (4, 3) (6, 2)  ENTER
+(4, 1) (2, 2) (3, 4) (4, 6) (2, 5) (3, 3)  ENTER
+(5, 4) (6, 6) (4, 5) (2, 6) (1, 4) 
+The largest steps is 35.
+
+Here is the solution for location 2: 
+(3, 1) (5, 2) (6, 4) (5, 6) (3, 5) (1, 6)  ENTER
+(2, 4) (3, 6) (1, 5) (2, 3) (1, 1) (3, 2)  ENTER
+(5, 1) (6, 3) (5, 5) (4, 3) (6, 2) (4, 1)  ENTER
+(2, 2) (1, 4) (2, 6) (4, 5) (6, 6) (5, 4)  ENTER
+(3, 3) (2, 1) (1, 3) (2, 5) (4, 4) (6, 5)  ENTER
+(4, 6) (3, 4) (4, 2) (6, 1) (5, 3) 
+The largest steps is 35.
+
+Here is the solution for location 3: 
+(2, 1) (4, 2) (6, 1) (5, 3) (6, 5) (4, 6)  ENTER
+(2, 5) (3, 3) (4, 1) (6, 2) (5, 4) (6, 6)  ENTER
+(4, 5) (2, 6) (1, 4) (2, 2) (3, 4) (1, 5)  ENTER
+(3, 6) (5, 5) (6, 3) (5, 1) (3, 2) (1, 1)  ENTER
+(2, 3) (4, 4) (5, 2) (6, 4) (5, 6) (3, 5)  ENTER
+(1, 6) (2, 4) (1, 2) (3, 1) (4, 3) 
+The largest steps is 35.
+
+Here is the solution for location 4: 
+(2, 6) (4, 5) (6, 6) (5, 4) (6, 2) (4, 1)  ENTER
+(2, 2) (3, 4) (4, 6) (6, 5) (5, 3) (6, 1)  ENTER
+(4, 2) (2, 1) (1, 3) (2, 5) (3, 3) (1, 2)  ENTER
+(3, 1) (5, 2) (6, 4) (5, 6) (3, 5) (1, 6)  ENTER
+(2, 4) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (2, 3) (1, 1) (3, 2) (4, 4) 
+The largest steps is 35.
+
+Here is the solution for location 5: 
+(3, 6) (5, 5) (6, 3) (5, 1) (3, 2) (1, 1)  ENTER
+(2, 3) (3, 1) (1, 2) (2, 4) (1, 6) (3, 5)  ENTER
+(5, 6) (6, 4) (5, 2) (4, 4) (6, 5) (4, 6)  ENTER
+(2, 5) (1, 3) (2, 1) (4, 2) (6, 1) (5, 3)  ENTER
+(3, 4) (2, 6) (1, 4) (2, 2) (4, 3) (6, 2)  ENTER
+(4, 1) (3, 3) (4, 5) (6, 6) (5, 4) 
+The largest steps is 35.
+
+Here is the solution for location 6: 
+(2, 4) (1, 2) (3, 1) (5, 2) (6, 4) (5, 6)  ENTER
+(3, 5) (1, 4) (2, 6) (4, 5) (6, 6) (5, 4)  ENTER
+(6, 2) (4, 1) (3, 3) (2, 1) (1, 3) (2, 5)  ENTER
+(4, 6) (6, 5) (5, 3) (6, 1) (4, 2) (3, 4)  ENTER
+(2, 2) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (2, 3) (1, 1) (3, 2) (4, 4) 
+The largest steps is 35.
+
+Here is the solution for location 7: 
+(1, 3) (2, 5) (4, 6) (6, 5) (5, 3) (6, 1)  ENTER
+(4, 2) (6, 3) (5, 1) (3, 2) (1, 1) (2, 3)  ENTER
+(1, 5) (3, 4) (2, 6) (1, 4) (2, 2) (4, 1)  ENTER
+(6, 2) (5, 4) (6, 6) (4, 5) (3, 3) (1, 2)  ENTER
+(3, 1) (5, 2) (6, 4) (5, 6) (4, 4) (3, 6)  ENTER
+(5, 5) (4, 3) (3, 5) (1, 6) (2, 4) 
+The largest steps is 35.
+
+Here is the solution for location 8: 
+(1, 4) (2, 6) (4, 5) (6, 6) (5, 4) (6, 2)  ENTER
+(4, 1) (5, 3) (6, 1) (4, 2) (2, 1) (3, 3)  ENTER
+(1, 2) (3, 1) (5, 2) (6, 4) (5, 6) (3, 5)  ENTER
+(1, 6) (2, 4) (4, 3) (5, 1) (6, 3) (5, 5)  ENTER
+(3, 6) (1, 5) (2, 3) (1, 1) (3, 2) (4, 4)  ENTER
+(6, 5) (4, 6) (3, 4) (1, 3) (2, 5) (2, 2)  ENTER
+
+Here is the solution for location 9: 
+(1, 1) (3, 2) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (3, 4) (2, 6) (1, 4) (2, 2) (4, 1)  ENTER
+(6, 2) (4, 3) (3, 1) (1, 2) (2, 4) (1, 6)  ENTER
+(3, 5) (5, 6) (6, 4) (5, 2) (4, 4) (6, 5)  ENTER
+(5, 3) (6, 1) (4, 2) (2, 1) (1, 3) (2, 5)  ENTER
+(4, 6) (5, 4) (6, 6) (4, 5) (3, 3) 
+The largest steps is 35.
+
+Here is the solution for location 10: 
+(1, 6) (3, 5) (5, 6) (6, 4) (5, 2) (3, 1)  ENTER
+(1, 2) (3, 3) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (4, 4) (3, 6) (1, 5) (2, 3) (1, 1)  ENTER
+(3, 2) (5, 1) (6, 3) (5, 5) (4, 3) (6, 2)  ENTER
+(5, 4) (6, 6) (4, 5) (2, 6) (1, 4) (2, 2)  ENTER
+(4, 1) (5, 3) (6, 1) (4, 2) (3, 4) 
+The largest steps is 35.
+
+Here is the solution for location 11: 
+(1, 3) (2, 1) (4, 2) (6, 1) (5, 3) (6, 5)  ENTER
+(4, 6) (5, 4) (6, 6) (4, 5) (2, 6) (3, 4)  ENTER
+(1, 5) (3, 6) (5, 5) (6, 3) (5, 1) (3, 2)  ENTER
+(1, 1) (2, 3) (4, 4) (5, 6) (6, 4) (5, 2)  ENTER
+(3, 1) (1, 2) (2, 4) (1, 6) (3, 5) (4, 3)  ENTER
+(6, 2) (4, 1) (3, 3) (1, 4) (2, 2) 
+The largest steps is 35.
+
+Here is the solution for location 12: 
+(1, 4) (2, 2) (4, 1) (6, 2) (5, 4) (6, 6)  ENTER
+(4, 5) (6, 4) (5, 6) (3, 5) (1, 6) (2, 4)  ENTER
+(1, 2) (3, 1) (4, 3) (5, 1) (6, 3) (5, 5)  ENTER
+(3, 6) (1, 5) (2, 3) (1, 1) (3, 2) (4, 4)  ENTER
+(5, 2) (3, 3) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (5, 3) (6, 1) (4, 2) (3, 4) (2, 6)  ENTER
+
+
+Here is the solution for location 13: 
+(1, 2) (2, 4) (1, 6) (3, 5) (5, 6) (6, 4)  ENTER
+(5, 2) (4, 4) (3, 6) (1, 5) (2, 3) (1, 1)  ENTER
+(3, 2) (5, 1) (6, 3) (5, 5) (4, 3) (6, 2)  ENTER
+(4, 1) (2, 2) (1, 4) (2, 6) (4, 5) (6, 6)  ENTER
+(5, 4) (3, 3) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (5, 3) (6, 1) (4, 2) (3, 4) (3, 1)  ENTER
+
+Here is the solution for location 14: 
+(1, 1) (2, 3) (1, 5) (3, 6) (5, 5) (6, 3)  ENTER
+(5, 1) (4, 3) (3, 1) (1, 2) (2, 4) (1, 6)  ENTER
+(3, 5) (5, 6) (6, 4) (5, 2) (4, 4) (6, 5)  ENTER
+(4, 6) (2, 5) (1, 3) (2, 1) (4, 2) (6, 1)  ENTER
+(5, 3) (3, 4) (2, 2) (1, 4) (2, 6) (4, 5)  ENTER
+(6, 6) (5, 4) (6, 2) (4, 1) (3, 3) 
+The largest steps is 35.
+
+
+Here is the solution for location 15: 
+(2, 1) (1, 3) (2, 5) (4, 6) (6, 5) (5, 3)  ENTER
+(6, 1) (4, 2) (5, 4) (6, 6) (4, 5) (2, 6)  ENTER
+(1, 4) (2, 2) (4, 1) (6, 2) (4, 3) (5, 1)  ENTER
+(6, 3) (5, 5) (3, 4) (1, 5) (3, 6) (2, 4)  ENTER
+(1, 2) (3, 1) (5, 2) (6, 4) (5, 6) (4, 4)  ENTER
+(3, 2) (1, 1) (2, 3) (3, 5) (1, 6) 
+The largest steps is 35.
+
+Here is the solution for location 16: 
+(2, 6) (1, 4) (2, 2) (4, 1) (6, 2) (5, 4)  ENTER
+(6, 6) (4, 5) (5, 3) (6, 1) (4, 2) (2, 1)  ENTER
+(1, 3) (2, 5) (4, 6) (6, 5) (4, 4) (5, 6)  ENTER
+(6, 4) (5, 2) (3, 3) (1, 2) (3, 1) (2, 3)  ENTER
+(1, 1) (3, 2) (5, 1) (6, 3) (5, 5) (4, 3)  ENTER
+(3, 5) (1, 6) (2, 4) (3, 6) (1, 5) (3, 4)  ENTER
+
+
+Here is the solution for location 17: 
+(1, 6) (2, 4) (1, 2) (3, 1) (5, 2) (6, 4)  ENTER
+(5, 6) (4, 4) (3, 6) (1, 5) (2, 3) (1, 1)  ENTER
+(3, 2) (5, 1) (6, 3) (5, 5) (4, 3) (6, 2)  ENTER
+(4, 1) (2, 2) (1, 4) (2, 6) (4, 5) (6, 6)  ENTER
+(5, 4) (3, 3) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (5, 3) (6, 1) (4, 2) (3, 4) 
+The largest steps is 35.
+
+Here is the solution for location 18: 
+(1, 5) (2, 3) (1, 1) (3, 2) (5, 1) (6, 3)  ENTER
+(5, 5) (4, 3) (3, 1) (1, 2) (2, 4) (1, 6)  ENTER
+(3, 5) (5, 6) (6, 4) (5, 2) (4, 4) (6, 5)  ENTER
+(4, 6) (2, 5) (1, 3) (2, 1) (4, 2) (6, 1)  ENTER
+(5, 3) (3, 4) (2, 2) (1, 4) (2, 6) (4, 5)  ENTER
+(6, 6) (5, 4) (6, 2) (4, 1) (3, 3) 
+The largest steps is 35.
+
+
+Here is the solution for location 19: 
+(6, 2) (5, 4) (6, 6) (4, 5) (2, 6) (1, 4)  ENTER
+(2, 2) (3, 4) (4, 6) (6, 5) (5, 3) (6, 1)  ENTER
+(4, 2) (2, 1) (1, 3) (2, 5) (3, 3) (1, 2)  ENTER
+(3, 1) (5, 2) (6, 4) (5, 6) (3, 5) (1, 6)  ENTER
+(2, 4) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (2, 3) (1, 1) (3, 2) (4, 4) 
+The largest steps is 35.
+
+Here is the solution for location 20: 
+(6, 1) (5, 3) (6, 5) (4, 6) (2, 5) (1, 3)  ENTER
+(2, 1) (3, 3) (4, 1) (6, 2) (5, 4) (6, 6)  ENTER
+(4, 5) (2, 6) (1, 4) (2, 2) (3, 4) (1, 5)  ENTER
+(3, 6) (5, 5) (6, 3) (5, 1) (3, 2) (1, 1)  ENTER
+(2, 3) (4, 4) (5, 2) (6, 4) (5, 6) (3, 5)  ENTER
+(1, 6) (2, 4) (1, 2) (3, 1) (4, 3) 
+The largest steps is 35.
+
+Here is the solution for location 21: 
+(5, 1) (6, 3) (5, 5) (3, 6) (1, 5) (2, 3)  ENTER
+(1, 1) (3, 2) (2, 4) (1, 6) (3, 5) (5, 6)  ENTER
+(6, 4) (5, 2) (3, 1) (1, 2) (3, 3) (2, 1)  ENTER
+(1, 3) (2, 5) (4, 4) (6, 5) (4, 6) (5, 4)  ENTER
+(6, 2) (4, 1) (2, 2) (1, 4) (2, 6) (3, 4)  ENTER
+(4, 2) (6, 1) (5, 3) (4, 5) (6, 6) 
+The largest steps is 35.
+
+Here is the solution for location 22: 
+(5, 6) (6, 4) (5, 2) (3, 1) (1, 2) (2, 4)  ENTER
+(1, 6) (3, 5) (2, 3) (1, 1) (3, 2) (5, 1)  ENTER
+(6, 3) (5, 5) (3, 6) (1, 5) (3, 4) (2, 6)  ENTER
+(1, 4) (2, 2) (4, 3) (6, 2) (4, 1) (5, 3)  ENTER
+(6, 1) (4, 2) (2, 1) (1, 3) (2, 5) (3, 3)  ENTER
+(4, 5) (6, 6) (5, 4) (4, 6) (6, 5) (4, 4)  ENTER
+
+Here is the solution for location 23: 
+(6, 6) (5, 4) (6, 2) (4, 1) (2, 2) (1, 4)  ENTER
+(2, 6) (3, 4) (4, 6) (6, 5) (5, 3) (6, 1)  ENTER
+(4, 2) (2, 1) (1, 3) (2, 5) (3, 3) (1, 2)  ENTER
+(3, 1) (5, 2) (6, 4) (5, 6) (3, 5) (1, 6)  ENTER
+(2, 4) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (2, 3) (1, 1) (3, 2) (4, 4) 
+The largest steps is 35.
+
+Here is the solution for location 24: 
+(6, 5) (5, 3) (6, 1) (4, 2) (2, 1) (1, 3)  ENTER
+(2, 5) (3, 3) (4, 1) (6, 2) (5, 4) (6, 6)  ENTER
+(4, 5) (2, 6) (1, 4) (2, 2) (3, 4) (1, 5)  ENTER
+(3, 6) (5, 5) (6, 3) (5, 1) (3, 2) (1, 1)  ENTER
+(2, 3) (4, 4) (5, 2) (6, 4) (5, 6) (3, 5)  ENTER
+(1, 6) (2, 4) (1, 2) (3, 1) (4, 3) 
+The largest steps is 35.
+
+Here is the solution for location 25: 
+(6, 3) (5, 5) (3, 6) (1, 5) (2, 3) (1, 1)  ENTER
+(3, 2) (1, 3) (2, 1) (4, 2) (6, 1) (5, 3)  ENTER
+(6, 5) (4, 4) (5, 6) (6, 4) (5, 2) (3, 1)  ENTER
+(1, 2) (2, 4) (1, 6) (3, 5) (4, 3) (6, 2)  ENTER
+(4, 1) (2, 2) (3, 4) (4, 6) (2, 5) (3, 3)  ENTER
+(5, 4) (6, 6) (4, 5) (2, 6) (1, 4) 
+The largest steps is 35.
+
+Here is the solution for location 26: 
+(6, 4) (5, 6) (3, 5) (1, 6) (2, 4) (1, 2)  ENTER
+(3, 1) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (2, 3) (1, 1) (3, 2) (4, 4) (6, 5)  ENTER
+(4, 6) (2, 5) (1, 3) (2, 1) (4, 2) (6, 1)  ENTER
+(5, 3) (3, 4) (2, 2) (1, 4) (2, 6) (4, 5)  ENTER
+(6, 6) (5, 4) (6, 2) (4, 1) (3, 3) (5, 2)  ENTER
+
+
+Here is the solution for location 27: 
+(6, 1) (4, 2) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (4, 4) (5, 6) (6, 4) (5, 2) (3, 1)  ENTER
+(1, 2) (3, 3) (4, 1) (6, 2) (5, 4) (6, 6)  ENTER
+(4, 5) (2, 6) (1, 4) (2, 2) (3, 4) (1, 5)  ENTER
+(2, 3) (1, 1) (3, 2) (5, 1) (6, 3) (5, 5)  ENTER
+(3, 6) (2, 4) (1, 6) (3, 5) (4, 3) 
+The largest steps is 35.
+
+Here is the solution for location 28: 
+(6, 6) (4, 5) (2, 6) (1, 4) (2, 2) (4, 1)  ENTER
+(6, 2) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (3, 4) (4, 6) (6, 5) (5, 3) (6, 1)  ENTER
+(4, 2) (2, 1) (1, 3) (2, 5) (3, 3) (1, 2)  ENTER
+(2, 4) (1, 6) (3, 5) (5, 6) (6, 4) (5, 2)  ENTER
+(3, 1) (2, 3) (1, 1) (3, 2) (4, 4) 
+The largest steps is 35.
+
+Here is the solution for location 29: 
+(6, 3) (5, 1) (3, 2) (1, 1) (2, 3) (1, 5)  ENTER
+(3, 6) (4, 4) (5, 6) (6, 4) (5, 2) (3, 1)  ENTER
+(1, 2) (2, 4) (1, 6) (3, 5) (4, 3) (6, 2)  ENTER
+(4, 1) (2, 2) (1, 4) (2, 6) (4, 5) (6, 6)  ENTER
+(5, 4) (3, 3) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (5, 3) (6, 1) (4, 2) (3, 4) (5, 5)  ENTER
+
+Here is the solution for location 30: 
+(6, 4) (5, 2) (3, 1) (1, 2) (2, 4) (1, 6)  ENTER
+(3, 5) (1, 4) (2, 6) (4, 5) (6, 6) (5, 4)  ENTER
+(6, 2) (4, 1) (3, 3) (2, 1) (1, 3) (2, 5)  ENTER
+(4, 6) (6, 5) (5, 3) (6, 1) (4, 2) (3, 4)  ENTER
+(2, 2) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (2, 3) (1, 1) (3, 2) (4, 4) (5, 6)  ENTER
+
+
+
+Here is the solution for location 31: 
+(5, 3) (6, 5) (4, 6) (2, 5) (1, 3) (2, 1)  ENTER
+(4, 2) (6, 3) (5, 1) (3, 2) (1, 1) (2, 3)  ENTER
+(1, 5) (3, 4) (2, 6) (1, 4) (2, 2) (4, 1)  ENTER
+(6, 2) (5, 4) (6, 6) (4, 5) (3, 3) (1, 2)  ENTER
+(3, 1) (5, 2) (6, 4) (5, 6) (4, 4) (3, 6)  ENTER
+(5, 5) (4, 3) (3, 5) (1, 6) (2, 4) 
+The largest steps is 35.
+
+Here is the solution for location 32: 
+(4, 1) (2, 2) (1, 4) (2, 6) (4, 5) (6, 6)  ENTER
+(5, 4) (4, 6) (6, 5) (5, 3) (6, 1) (4, 2)  ENTER
+(2, 1) (3, 3) (2, 5) (1, 3) (3, 4) (1, 5)  ENTER
+(3, 6) (5, 5) (6, 3) (5, 1) (3, 2) (1, 1)  ENTER
+(2, 3) (4, 4) (5, 2) (6, 4) (5, 6) (3, 5)  ENTER
+(1, 6) (2, 4) (1, 2) (3, 1) (4, 3) (6, 2)  ENTER
+
+
+Here is the solution for location 33: 
+(5, 1) (3, 2) (1, 1) (2, 3) (1, 5) (3, 6)  ENTER
+(5, 5) (4, 3) (3, 1) (1, 2) (2, 4) (1, 6)  ENTER
+(3, 5) (5, 6) (6, 4) (5, 2) (4, 4) (6, 5)  ENTER
+(4, 6) (2, 5) (1, 3) (2, 1) (4, 2) (6, 1)  ENTER
+(5, 3) (3, 4) (2, 2) (1, 4) (2, 6) (4, 5)  ENTER
+(6, 6) (5, 4) (6, 2) (4, 1) (3, 3) 
+The largest steps is 35.
+
+Here is the solution for location 34: 
+(5, 6) (3, 5) (1, 6) (2, 4) (1, 2) (3, 1)  ENTER
+(5, 2) (4, 4) (3, 6) (1, 5) (2, 3) (1, 1)  ENTER
+(3, 2) (5, 1) (6, 3) (5, 5) (4, 3) (6, 2)  ENTER
+(4, 1) (2, 2) (1, 4) (2, 6) (4, 5) (6, 6)  ENTER
+(5, 4) (3, 3) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (5, 3) (6, 1) (4, 2) (3, 4) 
+The largest steps is 35.
+
+Here is the solution for location 35: 
+(4, 6) (2, 5) (1, 3) (2, 1) (4, 2) (6, 1)  ENTER
+(5, 3) (4, 1) (6, 2) (5, 4) (6, 6) (4, 5)  ENTER
+(2, 6) (3, 4) (2, 2) (1, 4) (3, 3) (1, 2)  ENTER
+(3, 1) (5, 2) (6, 4) (5, 6) (3, 5) (1, 6)  ENTER
+(2, 4) (4, 3) (5, 1) (6, 3) (5, 5) (3, 6)  ENTER
+(1, 5) (2, 3) (1, 1) (3, 2) (4, 4) (6, 5)  ENTER
+
+Here is the solution for location 36: 
+(5, 4) (6, 2) (4, 1) (2, 2) (1, 4) (2, 6)  ENTER
+(4, 5) (6, 4) (5, 6) (3, 5) (1, 6) (2, 4)  ENTER
+(1, 2) (3, 1) (4, 3) (5, 1) (6, 3) (5, 5)  ENTER
+(3, 6) (1, 5) (2, 3) (1, 1) (3, 2) (4, 4)  ENTER
+(5, 2) (3, 3) (2, 1) (1, 3) (2, 5) (4, 6)  ENTER
+(6, 5) (5, 3) (6, 1) (4, 2) (3, 4) 
+The largest steps is 35.
+
+SourceCode:
+```C Plus Plus
+
+#include <iostream>
+#include <memory.h>
+#include <algorithm>
+#include <vector>
+#include <stdio.h>
+using namespace std;
+
+
+const int MAXN = 10;
+const int CONFIG = 6;
+const int CON = CONFIG * CONFIG;
+
+struct Node {
+	int x;
+	int y;
+	int totalToNext;
+};
+int map[MAXN][MAXN];
+int path[CON+5];
+int move_x[] = {1, -1, 1, -1, 2, -2, 2, -2};
+int move_y[] = {-2, -2, 2, 2, -1, -1, 1, 1};
+bool cmp(Node , Node );
+bool isValid(Node );
+bool dfs(Node ,int );
+
+int main() {
+	Node s;
+	Node check;
+	int N;
+	int i;
+	int flag=0;
+	//int count=0;
+	memset(map, 0, sizeof(int)*MAXN*MAXN);
+	cout << "Please enter the number of start(e.g. row2, column3 means 9):" << endl;
+	freopen("C:\\Users\\Will\\Desktop\\test.txt", "w", stdout);  
+	//while (cin >> N && N != -1) {
+		cin >> N;
+		cout << "Here is the solution for location " << N << ": " << endl;
+		s.x = (N-1) / CONFIG + 1;
+		s.y = (N-1) % CONFIG + 1;
+		//path[0] = N;
+		map[s.x][s.y] = 1;
+		dfs(s, 1);
+		for (i=0; i<8; i++) {
+			check.x = s.x + move_x[i];
+			check.y = s.y + move_y[i];
+			if (check.x ==  (path[CON-2] -1) / CONFIG + 1 &&
+			check.y == (path[CON-2] -1) % CONFIG + 1)
+				flag =1;
+		}
+		if (!flag) cout << endl << "The largest steps is 35." << endl << endl;
+		else cout << "(" << s.x << ", " << s.y << ")  ENTER" << endl << endl; 
+		
+	//}
+	
+	return 0;
+}
+
+bool dfs(Node n, int current) {
+	int i,j;
+	Node p,q;
+	vector<Node> tmp;
+	if (current == CON) {
+		for (i=0; i<CONFIG; i++) {
+			for (j=0; j<CONFIG; j++) {
+				if (i==CONFIG-1 && j==CONFIG-1) break;
+				cout << "(" << (path[i*CONFIG+j]-1) / CONFIG + 1 <<
+				", " << (path[i*CONFIG+j]-1) % CONFIG +1 << ") ";
+			}
+			if (i==CONFIG-1 && j==CONFIG-1) continue; 
+			cout <<  " ENTER" << endl;
+			
+		}
+		return true;
+	}
+	else {
+		for (i=0; i<8; i++) {
+			p.x = n.x + move_x[i];
+			p.y = n.y + move_y[i];
+			p.totalToNext = 0;
+			
+			if (isValid(p)) {
+				for (j=0; j<8; j++) {
+					q.x = p.x + move_x[j];
+					q.y = p.y + move_y[j];
+					if (isValid(q))
+						p.totalToNext++;
+				}
+				tmp.push_back(p);
+			}
+		}
+		sort(tmp.begin(), tmp.end(), cmp);
+		for (i=0; i<tmp.size(); i++) {
+			map[tmp[i].x][tmp[i].y] = 1;
+			path[current-1] = (tmp[i].x - 1)* CONFIG + tmp[i].y;
+			if (dfs(tmp[i], current+1)) return true;
+			map[tmp[i].x][tmp[i].y] = 0;
+		}
+	}
+	return false;
+}
+bool isValid(Node n) {
+	return (n.x>=1 && n.x<=CONFIG && n.y>=1 && n.y<=CONFIG && !map[n.x][n.y]);
+}
+bool cmp(Node a, Node b) {
+	return (a.totalToNext < b.totalToNext);
+}
